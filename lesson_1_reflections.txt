@@ -1,0 +1,49 @@
+How did viewing a diff between two versions of a file help you see the bug that 
+was introduced?
+
+	Viewing the differences highlighted the things that had changed. Since only a
+	few things changed it was much easier to spot the typo.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    If things go wrong I can go back and figure out what I changed. If the changes
+	have a description I can figure out why I made a certain change. I can see when
+	certain things were changed, how long has it been broken or fixed.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    When you commit manually you can make sure that the things are consistent a the
+	point of the commit, builds, runs, etc, and that the changes are not to big or 
+	too small. On the other hand, if you have to commit manually it possible that you
+	forget to commit often enough.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+	Google Docs is geared towards editing and versioning a document. Git and other
+	version control systems are targeted at code where related changes may exist
+	in more than one file. Committing all the related files at the same time 
+	ensures that any give revision can provide a consistent snapshot of of the
+	code.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    Git log allows you to look through the different commits and their descriptions.
+	Git log also indicates the ID of individual commits. Using the commit ids as 
+	arguments you can use git diff to see what changes were made between 2 commits.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+   	If I have the last working version of my code saved in git and I end up
+	breaking something, I can always go back to the working code and I can
+	also see what changes were made when things stopped working.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+	Git will be useful for managing my website and some projects that I am working on.
+	Not sure how well it will work with Word documents but maybe I can switch to Markdown
+	or ReStructureText.
