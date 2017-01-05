@@ -14,12 +14,26 @@ look like before you do it.
 How can you use the staging area to make sure you have one commit per logical
 change?
 
-
+After adding changes to the staging area I can use 'git diff --staged' to make sure
+that only changes related to a single logical commit are going to be in the commit.
+Changes can be added and removed from the staging area and once they are exactly 
+what I want I can commit them.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+If you need to make different versions of your code you can use branches to track
+each of the different versions. Branches are helpful because they allow you to 
+give a human readable name to each of the development paths, these names will
+group the change history for each path and in the future allow you to merge 
+the divergent paths back together.
+
 How do the diagrams help you visualize the branch structure?
+
+Diagrams help visualize the relationships between revisions. They show which
+commit belong to each branch and the temporal order. They also show which
+commits are common to two or more branches. They show the 'layout' of the 
+commits.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
