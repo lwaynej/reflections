@@ -38,5 +38,11 @@ commits.
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+When two branches are merged the git takes all the commits in one branch and 
+combines them with the other. The result is then checked into the current branch.
+The commits diagram will show all the commits from both branches in chronological
+order. If the graph option is used to show the log it will show the two development
+paths and the merge so that it's possible to see how the commits were added.
+
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
