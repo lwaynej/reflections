@@ -46,3 +46,10 @@ paths and the merge so that it's possible to see how the commits were added.
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+Automatic merging is faster and does not require a lot of effort. However,
+automatic merging has risks. Git just looks at differences but cannot figure
+out intent. Different people may add things the don't overlap in location 
+but may not work together. For example two different people can solve the
+same problem in two different ways so the when the changes are combined 
+something gets done twice and git might not notice the logical conflict.
