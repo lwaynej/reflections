@@ -9,24 +9,24 @@ Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
     If you are in the middle of something, depending on the nature of the
-	remote chagnes, you might want to finish your change before you merge 
+	remote chagnes, you might want to finish your change before you merge
 	in the remote or you may want to pull in the changes because it affects
 	that way you finish your code.
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-	A clone is a copy of a remote repository. A fork is the github version 
+	A clone is a copy of a remote repository. A fork is the github version
 	of a clone. It copies the repository but maintains a reference to the
 	original on git hub. A branch is a name that references a revision and
 	all of its ancestors. Changes can be committed to a branch. Committing
 	changes to the branch moves the name to the revision of the new commit.
-	
+
 	Branches allow different paths of development within the same repository.
 	They allow you to add feature or experiment without immediately affecting
 	other branches.
-	Clones allow you to copy of a remote repository (including branches) and 
-	allow collaboration. Each person managers there own local repository. 
+	Clones allow you to copy of a remote repository (including branches) and
+	allow collaboration. Each person managers there own local repository.
 	When their changes are ready they share them but 'pushing' them to the
 	remote repository.
 	A fork is similar to a clone except that the gitHub maintains information
@@ -36,7 +36,10 @@ use one instead of another?
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    A locally stored copy of the last known state of the remote repositories
+    allows doing things off line. We can check where things came from and
+    see the history of things that others have checked in. It also allows us to
+    merge our changes into the remote copy without having access to the remote.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
