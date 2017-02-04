@@ -55,4 +55,12 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    Making changes in a branch insulates your current work with the work on th
+    main branch. You can share your work with others while still maintianing
+    control on when the updates of others are merged into your branch. If you are
+    working on the main branch you cannot share your changes without pulling
+    in the changes already shared by others. Everyone else is also forced
+    to take your changes when they update.
+
+    Making changes on the main branch is not as complicated in that there is less
+    merging.
